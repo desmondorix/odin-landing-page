@@ -20,10 +20,11 @@ header {
 
 .logo {
   font-size: 30px;
+  color: #f9faf8;
+  font-weight: 900;
 }
 
-h1,
-p {
+h1 {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
@@ -64,7 +65,7 @@ a {
   font-size: 18px;
 }
 
-.left-side-hero p {
+.profile-summary {
   font-size: 15px;
 }
 
