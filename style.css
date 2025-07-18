@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, Sans-serif;
+}
+
+header {
+  padding: 12px 200px;
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.header-logo {
+  width: 70px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section {
+  padding: 12px 200px;
+  color: white;
+  background-color: #1f2937;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding-bottom: 100px;
+}
+
+.left-side-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.left-side-hero .name {
+  font-size: 18px;
+}
+
+.left-side-hero p {
+  font-size: 15px;
+}
+
+.left-side-hero button {
+  width: 100px;
+  height: 30px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+div .foto-desmond {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+
+  object-fit: cover;
+}
+
+.project-section{
+    
+}
