@@ -61,12 +61,14 @@ a {
   gap: 20px;
 }
 
-.left-side-hero .name {
+.name {
   font-size: 18px;
+  font-weight: normal;
 }
 
 .profile-summary {
   font-size: 15px;
+  font-weight: normal;
 }
 
 .left-side-hero button {
