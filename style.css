@@ -184,6 +184,11 @@ h2 {
   font-weight: 800;
 }
 
+.contact-details {
+  font-size: 16px;
+  font-weight: normal;
+}
+
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
