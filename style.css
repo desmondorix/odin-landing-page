@@ -18,6 +18,10 @@ header {
   width: 70px;
 }
 
+.logo {
+  font-size: 30px;
+}
+
 h1 {
   font-size: 48px;
   color: #f9faf8;
@@ -82,7 +86,7 @@ a {
 }
 
 .project-section {
-  padding: 80px 200px 80px 200px;
+  padding: 80px 200px 60px 200px;
 
   display: flex;
   flex-direction: column;
