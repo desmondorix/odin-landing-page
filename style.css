@@ -7,12 +7,11 @@ body {
 }
 
 header {
-  padding: 12px 200px;
+  padding: 20px 200px 50px 200px;
   display: flex;
   background-color: #1f2937;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 50px;
 }
 
 .header-logo {
@@ -20,7 +19,9 @@ header {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
 }
 
 ul {
@@ -33,25 +34,25 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  font-size: 16px;
 }
 
 .hero-section {
-  padding: 12px 200px;
+  padding: 30px 200px 100px 200px;
   color: white;
   background-color: #1f2937;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 80px;
-  padding-bottom: 100px;
+  gap: 50px;
 }
 
 .left-side-hero {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
 }
 
 .left-side-hero .name {
@@ -63,22 +64,122 @@ a {
 }
 
 .left-side-hero button {
-  width: 100px;
-  height: 30px;
-  background-color: #3b82f6;
-  color: white;
-  border: none;
-  border-radius: 6px;
+  width: 150px;
+  height: 35px;
+  background-color: #1f2937;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-weight: bold;
 }
 
-div .foto-desmond {
+.foto-desmond {
   width: 200px;
   height: 200px;
   border-radius: 20%;
-
   object-fit: cover;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
 }
 
-.project-section{
-    
+.project-section {
+  padding: 80px 200px 80px 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.project-content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-content img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border: 2px solid #1f2937;
+  border-radius: 15px;
+  background-color: #1f2937;
+}
+
+.project-name {
+  font-weight: bold;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.project-description {
+  text-align: center;
+  width: 150px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 80px 300px 80px 300px;
+}
+
+.quote {
+  font-size: 28px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-writer {
+  text-align: end;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.call-to-action {
+  margin: 60px 200px 60px 200px;
+  padding: 40px 100px 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+}
+
+.left-side-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cta-contact-button {
+  width: 120px;
+  height: 35px;
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 7px;
+  color: #e5e7eb;
+  font-weight: 800;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
 }
