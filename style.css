@@ -19,10 +19,11 @@ header {
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 30px;
 }
 
-h1 {
+h1,
+p {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
